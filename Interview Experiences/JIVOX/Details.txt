@@ -4,7 +4,7 @@ Education - CSE @ NIT Bhopal (MANIT)
 Placement - Incoming SDE @ Jivox 
 
 Shortlist - 7.5+ CGPA 
-Coding Round 4 Ques and 25 MCQ Ques - 120 minutes
+Coding Round 4 Ques and 21 MCQ Ques - 120 minutes
 
 3 Interviews (Face to Face) of 1 hr each
 Round 1 - 1 Coding Ques and basic CS subjects
