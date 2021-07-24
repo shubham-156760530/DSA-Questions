@@ -1,0 +1,15 @@
+Speaker Info :
+Name - Mukul Kumar
+Education - CSE @ NIT Bhopal (MANIT)
+Placement - Incoming SDE @ Jivox 
+
+Shortlist - 7.5+ CGPA 
+Coding Round 4 Ques and 25 MCQ Ques - 120 minutes
+
+3 Interviews (Face to Face) of 1 hr each
+Round 1 - 1 Coding Ques and basic CS subjects
+Round 2 - 1 Coding Ques and resume things
+Round 3 - Basic CS Subjects (Most difficult Round)
+
+All the interview rounds were  held on hackerrank codepair
+Max time for each round was 1 hr
