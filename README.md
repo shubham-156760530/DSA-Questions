@@ -4,3 +4,4 @@
 - **[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)**
 - **[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)**
 - **[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)**
+- **[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)**
