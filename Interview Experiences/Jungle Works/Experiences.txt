@@ -1,0 +1,21 @@
+What is node js and how it works ? 
+What is mongodb and diff btw SQL and no sql ?
+Joins and aggregation in mongodb ?
+What is rest ? 
+Settimeout function working for 0 seconds ? 
+Difference btw array and linked list, stack and queue ? 
+Middle of linked list ?
+Find repeating number ? 
+Queue using stack ? 
+Sort array of 0,1,2 ?
+What is hashing ? 
+ES6 features and difference btw let and var scoping ?
+Objects in js ?
+You have given the use cases  and you will have to tell how you'll solve the problem.
+
+You have given limited radius and you have to deliver something then what are the factors you'll think first and how you'll implement code for that?
+
+Depends on interviewer, wo kis product mei kaam karne ke liye lene aaya h
+
+The price of 10 chairs is equal to that of 4 tables. The price of 15 chairs and 2 tables together is Rs. 4000. The total price of 12 chairs and 3 tables is
+Rs. 3900   Rs. 3500  Rs. 3750  Rs. 3840
