@@ -7,3 +7,4 @@
 - **[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)**
 - **[Word Ladder](https://leetcode.com/problems/word-ladder/)**
 - **[Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)**
+- **[Jump Game](https://leetcode.com/problems/jump-game/)**
