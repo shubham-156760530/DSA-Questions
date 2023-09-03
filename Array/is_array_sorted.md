@@ -1,3 +1,4 @@
+### Check whether the given array is sorted or not
 
 #### NAIVE METHOD
 
