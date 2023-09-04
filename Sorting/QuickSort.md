@@ -6,4 +6,9 @@
 - Space: O(1)
 - Merge Sort has worst case time complexity as O(nlogn) and Quick Sort has worst case time complexity as O(n2) but still quick sort is faster than merge sort because it is 'In place' and tail recursive algorithm.
 - ![image](https://github.com/shubham-156760530/DSA-Questions/assets/59314528/3a263be2-0217-4623-9c17-40e8098c9e3d)
-- 
+
+#### Analysis of Quick Sort:
+
+- Best Case: O(nlogn)
+- Average Case: O(nlogn)
+- Worst Case: O(n2)
