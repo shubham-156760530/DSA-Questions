@@ -10,3 +10,18 @@
 - Time: O(n)
 - Space: O(1)
 
+### Given a sorted integer array, remove some duplicates in-place such that each unique element appears at most k times. The relative order of the elements should be kept the same.
+
+-     int removeDuplicates(vector<int>& nums, int k) {
+  
+          int i = 0, idx = 0;
+          for(i = 0; i < nums.size(); i++){
+              if((idx < k) || (nums[i] > nums[idx-k])){
+                  nums[idx++]=nums[i];
+              }
+          }
+      
+          return idx;
+      }
+
+- It is the generalize method for removing duplicates and if asked to have atmost k duplicates then also we can use this. k can be any positive value (1,2,3,4..) but it should be less than the array size.
