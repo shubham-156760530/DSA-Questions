@@ -88,10 +88,12 @@
   - Problem with linear probing:
     - We have problem of clustering with linear probing.
       - Primary Clustering: One of the problems with linear probing is Primary clustering, many consecutive elements form groups and it starts taking time to find a free slot or to search for an element.
-      - Secondary Clustering: Secondary clustering is less severe, two records only have the same collision chain (Probe Sequence) if their initial position is the same.
     - ![image](https://github.com/shubham-156760530/DSA-Questions/assets/59314528/7c38539c-f2bc-4947-8f44-5ae29e18236e)
-  - Insertion through Quadratic probing, we pass the key to the hash function and it returns the slot where we have to insert and if any value is already present at that slot then we linearly traverse the array and we look for next empty slots there and then we insert the items there.
-
+  - Insertion through Quadratic probing, we pass the key to the hash function and it returns the slot where we have to insert and if any value is already present at that slot then we traverse the array in quadratic fashion like we first check at 1 square = 1st empty slot, 2 square = 4th empty slot ... likewise and we took the empty slot and insert the element there.
+  - Problem with Quadratic Probing:
+    - We have problem of clustering with quadratic probing also, with linear probing we have problem of primary clustering and with quadratic probing we have problem of secondary clustering.
+    - Secondary Clustering: Secondary clustering is less severe, two records only have the same collision chain (Probe Sequence) if their initial position is the same.
+    - ![image](https://github.com/shubham-156760530/DSA-Questions/assets/59314528/749eb89f-a5cf-4b54-85cb-190622547016)
 ### Applications of Hashing:
   - ![image](https://github.com/shubham-156760530/DSA-Questions/assets/59314528/a7298ad9-f7ea-4c75-a7d8-160866b67a01)
 
