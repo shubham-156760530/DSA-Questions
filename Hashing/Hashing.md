@@ -72,7 +72,19 @@
               cout << mh.search(10) << endl;
               mh.remove(15);
               cout << mh.search(15);
-          } 
+          }
+
+#### Implementation of Open Addressing:
+  - In Open Addressing we have 3 ways to handle collision:
+  1. Linear Probing
+  2. Quadratic Probing
+  3. Double Hashing
+  - Insertion through Linear probing, we pass the key to the hash function and it returns the slot where we have to insert and if any value is already present at that slot then we linearly traverse the array and we look for next empty slots there and then we insert the items there.
+  - ![image](https://github.com/shubham-156760530/DSA-Questions/assets/59314528/51456eb0-ab57-46d1-b1a8-2213afaaa893)
+  - Searching and deletion using linear probing is a bit tricky. When we have to search or delete any value then we pass the value to the hash function we get the slot where this value should be present then we check that slot if it is there then we return or delete this value, but if the given value is not at given slot then we linearly search this value until we get the value or an empty slot and if all the slots are full and we dont get this value then we will stop our search when we return back to the first value from where we have started the searching (we may need to traverse circularly).
+  - ![image](https://github.com/shubham-156760530/DSA-Questions/assets/59314528/a889c82d-90cf-464b-8924-b1d64c910820)
+  - Insertion through Quadratic probing, we pass the key to the hash function and it returns the slot where we have to insert and if any value is already present at that slot then we linearly traverse the array and we look for next empty slots there and then we insert the items there.
+
 ### Applications of Hashing:
   - ![image](https://github.com/shubham-156760530/DSA-Questions/assets/59314528/a7298ad9-f7ea-4c75-a7d8-160866b67a01)
 
