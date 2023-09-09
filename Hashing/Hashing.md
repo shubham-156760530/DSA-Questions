@@ -83,6 +83,13 @@
   - ![image](https://github.com/shubham-156760530/DSA-Questions/assets/59314528/51456eb0-ab57-46d1-b1a8-2213afaaa893)
   - Searching and deletion using linear probing is a bit tricky. When we have to search or delete any value then we pass the value to the hash function we get the slot where this value should be present then we check that slot if it is there then we return or delete this value, but if the given value is not at given slot then we linearly search this value until we get the value or an empty slot and if all the slots are full and we dont get this value then we will stop our search when we return back to the first value from where we have started the searching (we may need to traverse circularly).
   - ![image](https://github.com/shubham-156760530/DSA-Questions/assets/59314528/a889c82d-90cf-464b-8924-b1d64c910820)
+  - Problem with deletion in linear probing:
+    - When we delete some element in linear probing we need to mark that slot as deleted otherwise when we do search and we see empty slot because of deletion of some elements then we will stop our search there and there may be chances that element would be present. So if we mark the deleted slot as deleted then when we see deleted slot, we continue searching.
+  - Problem with linear probing:
+    - We have problem of clustering with linear probing.
+      - Primary Clustering: One of the problems with linear probing is Primary clustering, many consecutive elements form groups and it starts taking time to find a free slot or to search for an element.
+      - Secondary Clustering: Secondary clustering is less severe, two records only have the same collision chain (Probe Sequence) if their initial position is the same.
+    - ![image](https://github.com/shubham-156760530/DSA-Questions/assets/59314528/7c38539c-f2bc-4947-8f44-5ae29e18236e)
   - Insertion through Quadratic probing, we pass the key to the hash function and it returns the slot where we have to insert and if any value is already present at that slot then we linearly traverse the array and we look for next empty slots there and then we insert the items there.
 
 ### Applications of Hashing:
