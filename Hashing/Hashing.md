@@ -61,18 +61,18 @@
               }
           };
           
-          	// Driver method to test Map class 
-          	int main() 
-          	{ 
-          	    MyHash mh(7);
-          	    mh.insert(10);
-          	    mh.insert(20);
-          	    mh.insert(15);
-          	    mh.insert(7);
-          	    cout << mh.search(10) << endl;
-          	    mh.remove(15);
-          	    cout << mh.search(15);
-          	} 
+          // Driver method to test Map class 
+          int main() 
+          { 
+              MyHash mh(7);
+              mh.insert(10);
+              mh.insert(20);
+              mh.insert(15);
+              mh.insert(7);
+              cout << mh.search(10) << endl;
+              mh.remove(15);
+              cout << mh.search(15);
+          } 
 ### Applications of Hashing:
   - ![image](https://github.com/shubham-156760530/DSA-Questions/assets/59314528/a7298ad9-f7ea-4c75-a7d8-160866b67a01)
 
