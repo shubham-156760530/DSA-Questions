@@ -93,6 +93,7 @@
   - Problem with Quadratic Probing:
     - We have problem of clustering with quadratic probing also, with linear probing we have problem of primary clustering and with quadratic probing we have problem of secondary clustering.
     - Secondary Clustering: Secondary clustering is less severe, two records only have the same collision chain (Probe Sequence) if their initial position is the same.
+    - One more problem with quadratic probing is that, there are chances where quadratic probing will not get empty slot even if empty slot is present.
     - ![image](https://github.com/shubham-156760530/DSA-Questions/assets/59314528/749eb89f-a5cf-4b54-85cb-190622547016)
 ### Applications of Hashing:
   - ![image](https://github.com/shubham-156760530/DSA-Questions/assets/59314528/a7298ad9-f7ea-4c75-a7d8-160866b67a01)
