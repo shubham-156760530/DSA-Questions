@@ -95,6 +95,28 @@
     - Secondary Clustering: Secondary clustering is less severe, two records only have the same collision chain (Probe Sequence) if their initial position is the same.
     - One more problem with quadratic probing is that, there are chances where quadratic probing will not get empty slot even if empty slot is present.
     - ![image](https://github.com/shubham-156760530/DSA-Questions/assets/59314528/749eb89f-a5cf-4b54-85cb-190622547016)
+  - Solution of clustering is Double Hashing:
+    - Double hashing is a collision resolution technique used in hash tables. It works by using two hash functions to compute two different hash values for a given key. The first hash function is used to compute the initial hash value, and the second hash function is used to compute the step size for the probing sequence.
+    - Double hashing has the ability to have a low collision rate, as it uses two hash functions to compute the hash value and the step size. This means that the probability of a collision occurring is lower than in other collision resolution techniques such as linear probing or quadratic probing.
+    - However, double hashing has a few drawbacks. First, it requires the use of two hash functions, which can increase the computational complexity of the insertion and search operations. Second, it requires a good choice of hash functions to achieve good performance. If the hash functions are not well-designed, the collision rate may still be high.
+    - Method 1: First hash function is typically hash1(key) = key % TABLE_SIZE
+    - A popular second hash function is hash2(key) = PRIME – (key % PRIME) where PRIME is a prime smaller than the TABLE_SIZE.
+    - A good second Hash function is:
+      - It must never evaluate to zero
+      - Just make sure that all cells can be probed 
+    - ![image](https://github.com/shubham-156760530/DSA-Questions/assets/59314528/7898ed8b-5034-47d5-9e94-bd719c6177f9)
+    - hash(key, i) = (h1(key)+ih2(key))%m
+    - ex- h1(key) = (key%7), h2(key) = 6 - (key%6)
+    - ![image](https://github.com/shubham-156760530/DSA-Questions/assets/59314528/99574efc-c715-4a00-96a7-bdd0cfd272c8)
+    - ![image](https://github.com/shubham-156760530/DSA-Questions/assets/59314528/ef46b974-0b47-437f-aaca-7e7e1783c514)
+    - Algorithm of Double Hashing:
+      - ![image](https://github.com/shubham-156760530/DSA-Questions/assets/59314528/2736a9c9-75f0-4b8a-a198-de6e0a5d3d0e)
+    - Performance Analysis of Double Hashing: 
+      - Time Complexity:
+        - Insertion: O(n)
+        - Search: O(n)
+        - Deletion: O(n)
+      - Auxiliary Space: O(size of the hash table).
 ### Applications of Hashing:
   - ![image](https://github.com/shubham-156760530/DSA-Questions/assets/59314528/a7298ad9-f7ea-4c75-a7d8-160866b67a01)
 
