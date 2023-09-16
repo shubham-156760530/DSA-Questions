@@ -120,3 +120,23 @@
 ### Applications of Hashing:
   - ![image](https://github.com/shubham-156760530/DSA-Questions/assets/59314528/a7298ad9-f7ea-4c75-a7d8-160866b67a01)
 
+### Unordered set in C++ STL
+
+- In C++ STL, hashing is implemented using unordered set.
+- unordered_set<int> uset;
+- It is used to store only keys, we use unordered map for using key, value pairs.
+- ![image](https://github.com/shubham-156760530/DSA-Questions/assets/59314528/bb0f03e4-639c-4e61-9292-d71e59a69dc9)
+- ![image](https://github.com/shubham-156760530/DSA-Questions/assets/59314528/ee3fd226-1b0a-4d64-a0f0-8f8ead8c728f)
+
+### Unordered map in C++ STL
+
+- Unordered map is also based on hashing like unordered set but the difference is that unordered map stores the elements in key, value pair.
+- ![image](https://github.com/shubham-156760530/DSA-Questions/assets/59314528/d4550bb1-abcd-4e9c-b063-dac8a0f7e492)
+- ![image](https://github.com/shubham-156760530/DSA-Questions/assets/59314528/7df1477d-72e1-4d71-b6de-51bb26795e5a)
+- ![image](https://github.com/shubham-156760530/DSA-Questions/assets/59314528/b71481aa-86d5-43a0-b351-747a491f13e1)
+- ![Uploading image.png…]()
+
+
+
+
+
