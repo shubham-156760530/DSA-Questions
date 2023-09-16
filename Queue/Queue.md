@@ -188,5 +188,28 @@
         	cout << "Queue Rear : " << (q.rear)->data; 
         } 
 
-    
+## Queue in C++ STL
+
+- queue<int> q;
+- ![image](https://github.com/shubham-156760530/DSA-Questions/assets/59314528/8f279783-32cb-4d84-9d00-16fc7339107f)
+
+## Dequeue in C++ STL
+
+- ![image](https://github.com/shubham-156760530/DSA-Questions/assets/59314528/859957f2-2a8a-499b-8fb9-84960a30b7de)
+- ![image](https://github.com/shubham-156760530/DSA-Questions/assets/59314528/9bcad99b-b033-4b26-bb2e-91638ff6d59e)
+
+## Applications of Dequeue
+
+- ![image](https://github.com/shubham-156760530/DSA-Questions/assets/59314528/79895f56-62e6-437b-9c6c-a81833fd02ae)
+
+## Implementation of dequeue
+
+- Using Linked List
+- ![image](https://github.com/shubham-156760530/DSA-Questions/assets/59314528/43deaffb-1bc8-414c-b6c9-cc87721ff08e)
+
+- Using Array
+- 
+
+
+
 
